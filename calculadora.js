@@ -17,6 +17,5 @@ let exibirResultado = document.getElementById("resultado").innerHTML;
     {
       document.getElementById("resulado").innerHTML = "0";
     }
-
-
-  }
+   
+  };

@@ -5,12 +5,20 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="./estilo.css" rel="stylesheet">
- 
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.13.1/themes/base/jquery-ui.css">
+    <link rel="stylesheet" href="/resources/demos/style.css"> 
+    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+    <script src="https://code.jquery.com/ui/1.13.1/jquery-ui.js"></script>
+    <script>
+    $( function() {
+      $( "#calculadora" ).draggable();
+    } );
+    </script>
     <title>Calculadora</title>
 </head>
 <body>
     <div class="fundo">
-        <div class="calculadora">
+        <div id="calculadora" class="ui-widget-content">
             <h1>CALCULADORA</h1>
             <p id="resultado"></p>
             <table>
@@ -49,7 +57,7 @@
         </div>
     </div>
 
-
+   
     <script src="./calculadora.js"></script>
     
 </body>
